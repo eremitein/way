@@ -1,0 +1,78 @@
+body {
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	background-color: #f8f8f8;
+	padding: 30px;
+	font: normal 1.2em PT Sans;
+}
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 100;
+	src: url(../fonts/PTS55F-webfont.woff) format('woff');
+}
+.grt {
+	color: #80f080;
+}
+.pps {
+	font-size: 90%;
+	color: #808080;
+  margin-top: 81px;
+}
+.note {
+	font-size: 90%;
+	color: #808080;
+}
+a {
+	color: #ff8500;
+	text-decoration: none;
+ 	font-size: 95%;
+}
+a:link {
+	text-decoration: none;
+	color: #ff8500;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	color: #808080;
+}
+a:hover {
+	color: #808080;
+	text-decoration: none;
+}
+.t01 {
+	height: 100%;
+	width: 100%;
+}
+.i_logo {
+	position: absolute;
+	top: 13px;
+	left: 28px;
+	height: 66px;
+	width: 147px;
+}
+.ttw {
+	height: 80px;
+	width: 100%;
+	word-spacing: 10pt;
+	text-align: right;
+}
+.tmw {
+	vertical-align: top;
+}
+li:not(:last-child) {
+  padding-bottom: 9px;
+}
+img {
+  border: 2px solid #eee;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 21px;
+  width: 70%;
+}
